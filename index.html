@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Icon -->
+    <link rel="icon" href="images/icon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>Imeline Ajalugu</title>
+</head>
+
+<body>
+
+<div class="header pl-3 pr-3">
+    <div class="row pt-5">
+        <div class="col-md"></div>
+        <div class="col"><img src="images/Imeline.png" class="img-fluid" alt="Imeline Ajalugu" id="logo"></div>
+        <div class="col-md"></div>
+        <div class="col-md"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-4 pt-5 pb-4 description">
+            Vali nende põnevate lugude seast välja enda lemmikud.<br>
+            Sinu ja teiste lugejate soovide põhjal paneme kokku ajakirja novembri numbri. Nii sünnib Eesti esimene
+            lugejate poolt kokku pandud ajakiri, mille sina võid saada endale tasuta!
+        </div>
+        <div class="col-md"></div>
+        <div class="col-md"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 pt-2 pb-4 text-red">
+            <h2><i class="fas fa-arrow-down mr-3"></i>
+                <a class="text-red" href="#choose-articles">Vali oma lemmikartiklid</a>
+            </h2>
+        </div>
+        <div class="col-md"></div>
+        <div class="col-md"></div>
+    </div>
+</div>
+<div class="container" id="choose-articles">
+    <h1>Pane kokku omaenda Imeline Ajalugu</h1>
+    <h6 class="description pt-3 pb-5">Vali igast teemast kuni 3 artiklit Imelise Ajaloo novembri numbrisse. Tänutäheks
+        saadame selle Sulle tasuta.<br>
+        Kui Sul endal on ajakiri juba tellitud, telli tasuta number heale sõbrale, kolleegile või sugulasele.
+    </h6>
+</div>
+<div class="container mb-5" id="container">
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne" role="tree" data-toggle="collapse" data-target="#collapseOne"
+                 aria-expanded="true" aria-controls="collapseOne">
+                <div class="title">
+                    <h4 class="mb-0 float-left">Pingelised sündmused</h4>
+                    <h6 class="mb-0 numbers float-right"><span id="count-checked-checkboxes">0</span> / 3</h6>
+                </div>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body check">
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0" id="cont">
+                                        <input class="checkbox" id="check1" type="checkbox" name="check1"
+                                               value="check1">
+                                        <label for="check1"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-6 pl-0">
+                                        <p class="small-text"><strong>Aaretejaht</strong><br>
+                                            1820: Hispaanlased lastivad laeva aaretega, kuid see röövitakse ja aare
+                                            peidetakse väikesele saarele. Tänapäeva aaretejahtija läheb seda otsima.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check2" type="checkbox" name="check2"
+                                               value="check2">
+                                        <label for="check2"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb2.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-6 pl-0">
+                                        <p class="small-text"><strong>Purustav orkaan</strong><br>
+                                            1900: Orkaan purustab Galvestoni linna. Katastroofis hukkub 8000 inimest
+                                            ning see USA linn kaotab igaveseks oma jõukuse ja sära.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check3" type="checkbox" name="check3"
+                                               value="check3">
+                                        <label for="check3"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb3.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-9 pl-0">
+                                        <p class="small-text"><strong>Hirmsaim lennukatastroof</strong><br>
+                                            1977: Gran Canaria lennuväljal plahvatanud pommi tõttu suunatakse paljud
+                                            lennud Tenerifele. Tekkinud segaduses juhtub ajaloo suurim lennuõnnetus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check4" type="checkbox" name="check4"
+                                               value="check4">
+                                        <label for="check4"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb4.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-9 pl-0">
+                                        <p class="small-text"><strong>Samuraide kättemaks</strong><br>
+                                            1703: Noor mees sunnitakse enesetapule ning tema klanni samuraid peavad
+                                            perekonna au taastama.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check5" type="checkbox" name="check5"
+                                               value="check5">
+                                        <label for="check5"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb5.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-9 pl-0">
+                                        <p class="small-text"><strong>Project Azorian</strong><br>
+                                            1968: Ootamatult upub nõukogude allveelaev K-129 tuumarakettidega pardal.
+                                            Mõne aasta pärast alustab CIA vaenlase allveelaeva koopia ehitamist -
+                                            algab projekt Azorian.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check6" type="checkbox" name="check6"
+                                               value="check6">
+                                        <label for="check6"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb6.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-9 pl-0">
+                                        <p class="small-text"><strong>Viis ööpäeva põrgus</strong><br>
+                                            1977: Palestiina terroristid kaaperdavad reisilennuki. Tund-tunnilt kustub
+                                            reisijate lootus eluga pääseda. Lääne-Saksamaa saadab Somaaliasse
+                                            teel olevale lennukile vastu eriüksuse.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="container pl-3 pr-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 checkbox pr-0">
+                                        <input class="checkbox" id="check7" type="checkbox" name="check7"
+                                               value="check7">
+                                        <label for="check7"></label>
+                                    </div>
+                                    <div class="col-md-2 pl-0 mr-3 image">
+                                        <img src="images/thumb7.png" alt="thumbnail">
+                                    </div>
+                                    <div class="col-md-9 pl-0">
+                                        <p class="small-text"><strong>Aaretejaht</strong><br>
+                                            1986: Suur osa Nõukogude Liidu elektrist tuleb tuumajaamadest,
+                                            kuid nende ehitamisel on tehtud mitmeid vigu. 26. aprillil toimub Tšernobõli
+                                            tuumajaamas plahvatus ning ajaloo suurim tuumakatastroof saab tõeks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="card-footer text-center pb-4">
+                    <button type="button" class="btn btn-next text-button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Järgmine teema
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo" role="tree" data-toggle="collapse" data-target="#collapseTwo"
+                 aria-expanded="false" aria-controls="collapseTwo">
+                <div class="title">
+                    <h4 class="mb-0 float-left">Kuulsad teod</h4>
+                    <h6 class="mb-0 numbers float-right">0 / 3</h6>
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum
+                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                        praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                        placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui
+                        facit
+                        eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius. </p>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
+                        notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
+                        humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur
+                        parum clari, fiant sollemnes in futurum.</p>
+                </div>
+                <div class="card-footer text-center pb-4">
+                    <button type="button" class="btn btn-next text-button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Järgmine
+                        teema
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree" role="tree" data-toggle="collapse" data-target="#collapseThree"
+                 aria-expanded="false" aria-controls="collapseThree">
+                <div class="title">
+                    <h4 class="mb-0 float-left">Igapäevane elu</h4>
+                    <h6 class="mb-0 numbers float-right">0 / 3</h6>
+                </div>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum
+                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                        praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                        placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui
+                        facit
+                        eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius. </p>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
+                        notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
+                        humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur
+                        parum clari, fiant sollemnes in futurum.</p>
+                </div>
+                <div class="card-footer text-center pb-4">
+                    <button type="button" class="btn btn-next text-button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Järgmine
+                        teema
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFour" role="tree" data-toggle="collapse" data-target="#collapseFour"
+                 aria-expanded="false" aria-controls="collapseFour">
+                <div class="title">
+                    <h4 class="mb-0 float-left">Suured konfliktid</h4>
+                    <h6 class="mb-0 numbers float-right">0 / 3</h6>
+                </div>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum
+                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                        praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                        placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui
+                        facit
+                        eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius. </p>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
+                        notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
+                        humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur
+                        parum clari, fiant sollemnes in futurum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 text-center">
+        <button type="button" class="btn btn-ready text-button disabled">Valmis!</button>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <p><a class="text-dark-red" href="#">Imeline Ajalugu</a> on põhjamaade populaarseim ajalooajakiri,
+                    millel on
+                    Eestis üle 50 000 lugeja. Ajakiri ilmub kord kuus, igas numbris on põnevad ja rikkalikult
+                    illustreeritud
+                    lood ligi 100 leheküljel. Imelist Ajalugu annab Eestis välja AS Äripäev alates 2011 aaasta sügisest.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="images/covers.png" class="img-fluid" alt="Covers">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md pb-1 pt-4">
+                    <p>
+                        <a class="text-yellow" id="myLargeModalLabel" href="#" data-toggle="modal"
+                           data-target=".bd-example-modal-lg">
+                            Tutvu kampaania tingimustega
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md pb-3">
+                    <p class="text-white">Klienditeeninduse e-post:
+                        <a class="text-yellow" href="#">register@imelineajalugu.ee</a>, tel: 667 0099 (tööpäeviti 9–17)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title centered" id="exampleModalLongTitle">Kampaania tingimused</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                    dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                    praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                    placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit
+                    eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius. </p>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
+                    notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
+                    humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur
+                    parum clari, fiant sollemnes in futurum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<script src="scripts/custom.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+</html>
