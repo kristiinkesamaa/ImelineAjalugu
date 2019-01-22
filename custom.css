@@ -64,7 +64,7 @@ body {
     position: absolute;
     width: 200px;
     height: 50px;
-    clip-path: polygon(100% 0%, 100% 70%, 50% 90%, 50% 90%, 0 70%, 0 0);
+    -webkit-clip-path: polygon(100% 0%, 100% 70%, 50% 90%, 50% 90%, 0 70%, 0 0);
 
 }
 
