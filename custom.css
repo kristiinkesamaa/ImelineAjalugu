@@ -57,6 +57,17 @@ body {
     }
 }
 
+.ribbon {
+    background-image: -moz-linear-gradient(90deg, rgb(200, 49, 0) 0%, rgb(166, 35, 0) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(200, 49, 0) 0%, rgb(166, 35, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(200, 49, 0) 0%, rgb(166, 35, 0) 100%);
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    clip-path: polygon(100% 0%, 100% 70%, 50% 90%, 50% 90%, 0 70%, 0 0);
+
+}
+
 /* Text attributes */
 .text-red, .text-red:hover {
     color: #a62300;
